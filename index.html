@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="fr-FR">
+  <head>
+    <title>Conférence Web-5 Nouvelles Technologies,Web,Béziers,4-5-6 Avril 2012</title>
+	<meta name="Author" content="Web-5 Association"/>
+	<meta name="Description" content="L'association Web-5 organise la Conférence Web-5 sur les nouvelles technologies du web, open web, webgl et html5, node.js, scala. Les 4, 5 et 6 Avril 2012 à Béziers."/>
+	<meta name="Keywords" content="web-5, conference, javascript, dojo toolkit, webgl, html5, css3, open web, node.js, web, scala, france, experts"/>
+	<meta name="Generator" content="Human"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<meta name="geo.region" content="FR-34" />
+	<meta name="geo.placename" content="Béziers" />
+	<meta name="geo.position" content="43.3434857;3.2113838" />
+	<meta name="ICBM" content="43.3434857, 3.2113838" />
+	<meta name="alexaVerifyID" content="ZNYughs8ebqfyGDb7SvfbzhrcMY" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="profile" href="http://gmpg.org/xfn/11" />
+    <!--[if IE 7]>
+      <link rel="stylesheet" type="text/css" href="css/ie7.css" />
+    <![endif]-->
+    <!--[if lte IE 8]>
+      <link rel="stylesheet" type="text/css" href="css/ie.css" />
+    <![endif]-->
+    <!--[if IE 9]>
+      <link rel="stylesheet" type="text/css" href="css/ie9.css" />
+    <![endif]-->
+<!--    <script src="http://yandex.st/dojo/1.6.1/dojo/dojo.xd.js" type="text/javascript"></script> -->
+	<script type="text/javascript">
+        var dojoConfig = {
+            modulePaths : {
+                "widget" : "/"
+            }
+        }
+    </script>
+    <script src="scripts/dojo.js" type="text/javascript" defer></script>
+    <script src="scripts/web5.js" type="text/javascript" defer></script>
+	<script src="scripts/Diaporama.js" type="text/javascript" defer></script>
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-26108024-1']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+		var addthis_config = {"data_track_addressbar":true};
+
+        dojo.require("widget.Diaporama");
+        dojo.ready(function(){
+			console.log(dojo.byId("diaporamaNode").style.display);
+			if(dojo.byId("diaporamaNode").style.display != "none"){
+				var diaporama = new widget.Diaporama();
+					diaporama.images = [
+						"images/slides/slide1.png",
+						"images/slides/slide2.png",
+						"images/slides/slide3.png",
+						"images/slides/slide4.png"
+					];
+					diaporama.node = "diaporamaNode";
+					diaporama.init();
+			}
+        });
+	</script>
+	<script type="text/javascript" src="http://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-4ef856c53d57d0e6" defer></script>
+  </head>
+  <body class="home">
+    <!--[if lte IE 6]>
+      <script src="ie6/warning.js"></script>
+      <script>window.onload=function(){e("ie6/")}</script>
+    <![endif]-->
+    <!--
+
+
+WWWWWWWW                           WWWWWWWW                b:::::b                             555555555555555555
+W::::::W                           W::::::W                b:::::b                             5::::::::::::::::5
+W::::::W                           W::::::W                b:::::b                             5::::::::::::::::5
+W::::::W                           W::::::W                b:::::b                             5:::::555555555555
+ W:::::W           WWWWW           W:::::W eeeeeeeeeeee    b:::::bbbbbbbbb                     5:::::5
+  W:::::W         W:::::W         W:::::Wee::::::::::::ee  b::::::::::::::bb                   5:::::5
+   W:::::W       W:::::::W       W:::::We::::::eeeee:::::eeb::::::::::::::::b                  5:::::5555555555
+    W:::::W     W:::::::::W     W:::::We::::::e     e:::::eb:::::bbbbb:::::::b ~~~~~~~~~~~~~~~ 5:::::::::::::::5
+     W:::::W   W:::::W:::::W   W:::::W e:::::::eeeee::::::eb:::::b    b::::::b -:::::::::::::- 555555555555:::::5
+      W:::::W W:::::W W:::::W W:::::W  e:::::::::::::::::e b:::::b     b:::::b ~~~~~~~~~~~~~~~             5:::::5
+       W:::::W:::::W   W:::::W:::::W   e::::::eeeeeeeeeee  b:::::b     b:::::b                             5:::::5
+        W:::::::::W     W:::::::::W    e:::::::e           b:::::b     b:::::b                 5555555     5:::::5
+         W:::::::W       W:::::::W     e::::::::e          b:::::bbbbbb::::::b                 5::::::55555::::::5
+          W:::::W         W:::::W       e::::::::eeeeeeee  b::::::::::::::::b                   55:::::::::::::55
+           W:::W           W:::W         ee:::::::::::::e  b:::::::::::::::b                      55:::::::::55
+            WWW             WWW            eeeeeeeeeeeeee  bbbbbbbbbbbbbbbb                         555555555
+
+
+                                         _____                 _____                                             _   _    _      _          _____   _
+                                        /  ___|               |  __ \                                           | | | |  | |    | |        |  ___| | |
+                                        \ `~~. _   _ _ __     | |  \/_ __ __ _ _ __   ___  ___    __ _ _ __   __| | | |  | | ___| |__ _____|___ \  | |
+                                         `~~. \ | | | '_ \    | | __| '__/ _` | '_ \ / _ \/ __|  / _` | '_ \ / _` | | |/\| |/ _ \ '_ \______|  \ \ | |
+                                        /\__/ / |_| | | | |_  | |_\ \ | | (_| | |_) |  __/\__ \ | (_| | | | | (_| | \  /\  /  __/ |_) |    /\__/ / |_|
+                                        \____/ \__,_|_| |_( )  \____/_|  \__,_| .__/ \___||___/  \__,_|_| |_|\__,_|  \/  \/ \___|_.__/     \____/  (_)
+                                                          |/                  | |
+                                                                              |_|
+
+     -->
+	<div class="bg"></div>
+	<div class="bandeau"></div>
+	<div class="general"><nav>
+	  <ul class="nav">
+		<li><a href="/" title="Accueil">Accueil</a></li>
+		<li><a href="schedule.html" title="Le programme">Le programme</a></li>
+		<li><a href="speakers.html" title="Les invités">Les Invités</a></li>
+		<li><a href="venue.html" title="Le lieu de rendez-vous">Où sommes-nous ?</a></li>
+		<li><a href="about.html" title="Les organisateurs">Les Organisateurs</a></li>
+	  </ul></nav>
+	  <a href="/"><img class="logo" id="logo" src="images/logo.png" alt="web-5" width="179" height="201"/></a>
+	  <div class="ascenseur left"></div>
+	  <div class="ascenseur right"></div>
+	  <div class="title">
+		<p class="baseline">
+		  Sun, Grapes <span class="and">&amp;</span> <span class="highlight">Web-5</span>
+		</p>
+		<p class="conference">1ère ÉDITION : <strong>4, 5 et 6 Avril 2012</strong> à Béziers(34) - France</p>
+	  </div>
+      <a href="en/" onclick="sessionStorage.setItem('locale', 'en'); window.location.href='en/';return false;">
+	      <img class="drapeau" src="images/en.png" alt="english version" title="english version" width="32" height="32"/>
+	  </a>
+	  <div class="border">
+		<div class="one"></div><div class="two"></div><div class="three"></div><div class="four"></div>
+	  </div>
+	  <div class="calque grappe"><div></div></div>
+	  <div id="soleil" class="calque soleil"><div></div></div>
+	  <div class="contenu">
+		<div class="gauche">
+		  <h1>Web-5 Conférence : <span class="highlight">JavaScript, Html5, Dojo, WebGL, Mobile, Performance</span></h1>
+		  <div class="addthis_toolbox addthis_default_style topPosition">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_preferred_4"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		  </div>
+          <div id="diaporamaNode"><img src="images/slides/slide1.png" alt="Web-5 Diaporama" width="580" height="260"/></div>
+          <div id="speakersThumbnail"></div>
+		  <p><br />
+			La première conférence Web-5 aura lieu à Béziers, dans l'Hérault (34) les <strong>4, 5 et 6 Avril 2012</strong>.<br/>
+			Elle a pour objet de faire découvrir et partager de <strong>nouvelles
+			technologies</strong> et techniques javascript, html5, css3, webgl, grâce à une approche pratique, concrète et de très haut niveau.
+			Cette conférence s'adresse aussi bien aux directeurs techniques, développeurs qu'aux administrateurs systèmes ayant un <strong>bon niveau d'expertise</strong>.
+			Les nouvelles technologies et techniques abordées lors des différentes présentations vous aideront à donner un souffle nouveau sur vos travaux en cours ou à venir.</p>
+			<p>L'objectif de la conférence Web-5 est de montrer que tous ces mots (<strong>WebGL, Dojo Toolkit, SocketIO, NodeJS, HTML5, JavaScript</strong>)
+			ne sont pas que des buzzwords, mais proposent de réelles opportunités en terme de développement d'application client.<br/>
+			Que vous soyez en environnement <strong>mobile</strong> ou desktop, <br/>Que vous développiez une application d'entreprise ou grand public, <br/>
+			Que vous ayez besoin de <strong>performances</strong> ou de <strong>scalabilité</strong>, <br/>
+			vous avez l'assurance de trouver de nombreuses informations intéressantes tout au long de la conférence Web-5.</p>
+			<p>Cet événement sera l'occasion de rassembler une communauté d'acteurs du web français et internationaux autour de personnalités reconnues pour leur expertise et leur passion, le tout dans une ambiance décontractée.
+		  </p>
+		  <p>
+			<em>La Conférence Web-5 sera tenue sur trois jours, les 4, 5 et 6 Avril 2012 à l'IUT de Béziers.</em><br/>
+			Les thèmes principaux seront : Javascript, Html 5 &amp; CSS 3, WebGL, Dojo Toolkit, Socket.io, Node.js, le développement Mobile, Scala et le framework Play2! ainsi que les Performances Web.<br/><br/>
+			Vous pouvez nous retrouver sur notre channel irc : <a href="http://bit.ly/chat-web-5" title="Web-5 Irc Channel" target="_blank">Web-5 Irc Channel</a><br/>
+			Ou sur twitter en suivant <a href="http://twitter.com/#!/web5_conf" target="_blank">@web5_conf</a>
+		  </p>
+		  <p>A noter qu'il existe un aéroport ryanair à Béziers avec une liaison Paris - Béziers.</p>
+		  <div class="addthis_toolbox addthis_default_style addthis_32x32_style">
+			<a class="addthis_button_preferred_1"></a>
+			<a class="addthis_button_preferred_2"></a>
+			<a class="addthis_button_preferred_3"></a>
+			<a class="addthis_button_preferred_4"></a>
+			<a class="addthis_button_compact"></a>
+			<a class="addthis_counter addthis_bubble_style"></a>
+		  </div>
+		</div>
+
+		<div class="droite">
+		  <h2>Rejoignez-nous !</h2>
+		  <p><br/><strong>Plus que trois semaines ! </strong><br/><a class="droiteLink" href="http://web-5.eventsbot.com" title="Réservez vos places" target="_blank"><img src="http://www.eventsbot.com/images/Reg-4.jpg" style="border-width:0px;" alt="Réserver ma place" width="163" height="54"/></a></p>
+	      <p><br/>Vous pouvez nous suivre sur twitter <strong>@web5_conf</strong> ou sur irc freenode chan <strong>#web-5</strong><br/><br/>Vous pouvez aussi nous contacter par email à : <strong>infos at web-5.org</strong></p>
+		</div>
+
+		<div class="droite">
+		  <h2>Adresses</h2>
+		  <p>
+			IUT Béziers<br />
+			3, place du 14 juillet<br />
+			34505 Béziers
+		   </p>
+
+			<img src="images/iutbynight_small.jpg" style="margin-bottom:20px;" alt="IUT de nuit" width="240" height="135"/>
+			<a href="venue.html">Adresses et plans</a>
+		</div>
+
+	  </div>
+      <div class="partners">
+        <span class="partnersTitle"><a class="partnersTitle" href="ourpartners.html" title="Nos partenaires">Nos partenaires</a></span>
+		  <p>Nous souhaitons tout particulièrement remercier <strong>IBM</strong>, <strong>Zenexity</strong>, <strong>Do|You|Soft</strong>, l'<strong>IUT de Béziers</strong> et <strong>l'agglomération de Béziers</strong> pour leur aide précieuse. Sans eux notre projet ne serait pas réalisable !</p>
+          <h2 class="partners">Les Partenaires</h2>
+		  <ul class="partnersList">
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="http://www.powerboutique.com/" title="Do|You|Soft" target="_blank" rel="external contact colleague"><img src="images/partners/doyousoft.png" alt="Do|You|Soft" width="150" height="50"/></a>
+			  </li>
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="http://www.ibm.com/fr/fr/" title="IBM" target="_blank" rel="external contact colleague"><img src="images/partners/ibm_150.jpg" alt="IBM" width="150" height="57"/></a>
+			  </li>
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="http://www.zenexity.com/" title="Zenexity" target="_blank" rel="external contact colleague"><img src="images/partners/zenexity_150.png" alt="Zenexity" width="150" height="75"/></a>
+			  </li>
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="http://www.iutbeziers.univ-montp2.fr/" title="IUT de Béziers" target="_blank" rel="external contact colleague"><img src="images/partners/iutbeziers.jpg" alt="IUT de Béziers" width="99" height="50"/></a>
+			  </li>
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="http://www.beziers-agglo.org/" title="Agglomération de Béziers" target="_blank" rel="external contact colleague"><img src="images/partners/agglo-beziers_150.jpg" alt="Agglomération de Béziers" width="150" height="168"/></a>
+			  </li>
+			  <li class="partnerThumb_150">
+				<a class="partnerLink" href="partners.html" title="Devenez partenaire de l'événement"><img src="images/votrelogoici.png" alt="Votre Logo ici" class="yourLogoHere" width="150" height="50"/></a>
+			  </li>
+		  </ul>
+          <h2 class="partners">Les Parraineurs</h2>
+		  <ul class="partnersList">
+			  <li class="partnerThumb_100">
+				<a class="partnerLink" href="http://www.wakanda.org/" title="Wakanda" target="_blank" rel="external contact colleague"><img src="images/partners/wakanda_100.png" alt="Wakanda" width="100" height="32"/></a>
+			  </li>
+			  <li class="partnerThumb_100">
+				<a class="partnerLink" href="partners.html" title="Devenez partenaire de l'événement"><img src="images/votrelogoici_100.png" alt="Votre Logo ici" class="yourLogoHere" width="100" height="33"/></a>
+			  </li>
+		  </ul>
+          <h2 class="partners">Les Contributeurs</h2>
+		  <ul class="partnersList">
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="http://www.mozilla.org/" title="Mozilla" target="_blank" rel="external contact colleague"><img src="images/partners/mozilla_80.png" alt="Mozilla" width="80" height="20"/></a><br /><br />
+			  </li>
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="http://www.github.com/" title="Github" target="_blank" rel="external contact colleague"><img src="images/partners/github_80.png" alt="Github" width="80" height="36"/></a><br /><br />
+			  </li>
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="http://www.bloxx.fr/2012/01/25/offre-emploi-web-developpeur" title="Bloxx" target="_blank" rel="external contact colleague"><img src="images/partners/bloxx_80.png" alt="Bloxx" width="71" height="30"/></a><br /><br />
+			  </li>
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="partners.html" title="Devenez partenaire de l'événement"><img src="images/votrelogoici_80.png" alt="Votre Logo ici" class="yourLogoHere" width="80" height="26"/></a>
+			  </li>
+		  </ul>
+          <h2 class="partners">Les Supporters</h2>
+		  <ul class="partnersList">
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="http://phpsolmag.org/?a_aid=nataliazadykowicz" title="PHPSolutions"><img src="images/partners/phpsolutions_80.jpg" alt="PHPSolutions" width="80" height="20"/></a>
+			  </li>
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="http://www.celinedesign.com/" title="Celine Design"><img src="images/partners/celinedesign_80.jpg" alt="Celine Design" width="80" height="57"/></a>
+			  </li>
+			  <li class="partnerThumb_80">
+				<a class="partnerLink" href="partners.html" title="Devenez partenaire de l'événement"><img src="images/votrelogoici_80.png" alt="Votre Logo ici" class="yourLogoHere"/></a>
+			  </li>
+		  </ul>
+      </div>
+	</div>
+  </body>
+</html>
